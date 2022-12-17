@@ -1,0 +1,49 @@
+.main{
+    display: grid;
+    grid-template-columns: 100px 100px;
+}
+
+.div1{
+    background-color: lightblue;
+}
+
+.div2{
+    background-color: lightcoral;
+}
+
+.main2{
+    display: grid;
+    grid-template-columns: 100px 100px 200px;
+    margin-top: 10px;
+}
+
+.div3{
+    background-color: lightblue;
+}
+
+.div4{
+    background-color: lightcoral;
+}
+
+.div5{
+    background-color: lightblue;
+}
+
+.div6{
+    background-color: lightcoral;
+}
+
+.div7{
+    background-color: lightblue;
+}
+
+.div8{
+    background-color: lightcoral;
+}
+
+
+.main3{
+    display: grid;
+    grid-template-columns: 100px 1fr;
+    margin-top: 10px;
+}

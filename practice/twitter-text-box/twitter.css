@@ -1,0 +1,36 @@
+.container{
+    display: flex;
+    align-items: center;
+}
+
+
+.profile-photo{
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.bar{
+    border: none;
+    margin-left: 8px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 8px;
+    padding-left: 8px;
+    background-color: #6060600e;
+    border-radius: 20px;
+    margin-right: 8px;
+}
+
+.tweet-button{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 16px;
+    padding-right: 16px;
+    border-radius: 25px;
+    border: none;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(2, 158, 255);
+}

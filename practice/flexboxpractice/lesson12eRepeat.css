@@ -1,0 +1,49 @@
+.main{
+    font-family: Arial;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    width: 200px;
+    height: 100px;
+    justify-content: space-between;
+    border-style: solid;
+    border-color: rgb(211, 208, 208);
+    border-radius: 15px;
+    box-shadow: 2px 2px 1px rgba(218, 216, 216, 0.486);
+    border-width: 0.8px;
+    margin: 8px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.texts{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.nums{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    width: 30px;
+    color: white;
+}
+
+.num1{
+    background-color: rgb(101, 65, 235);
+    border-radius: 10px;
+    width: 100%;
+}
+.num2{
+    background-color: rgb(101, 65, 235);
+    border-radius: 10px;
+    width: 100%;
+}
+.num3{
+    background-color: rgb(101, 65, 235);
+    border-radius: 10px;
+    width: 100%;
+}

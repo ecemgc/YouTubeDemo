@@ -1,0 +1,47 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    width: 300px;
+    border-style: solid;
+    border-width: 0.8px;
+    border-color: #b1adad67;
+    border-radius: 6px;
+    box-shadow: 1px 1px 1px rgba(165, 161, 161, 0.507);
+    padding: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.home-con {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-weight: 600;
+}
+.home{
+
+}
+
+.notif-con {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-weight: 600;
+}
+.notif{
+
+}
+
+.mess-con {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-weight: 600;
+}
+.mess{
+
+}
+.num3{
+    color: white;
+    background-color: rgb(17, 8, 41);
+}
