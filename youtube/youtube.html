@@ -1,203 +1,205 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./styles/video.css">
-    <link rel="stylesheet" href="./styles/header.css">
-    <link rel="stylesheet" href="./styles/general.css">
-    <link rel="stylesheet" href="./styles/sidebar.css">
-    <script src="https://kit.fontawesome.com/aa15607729.js" crossorigin="anonymous"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Nunito&family=Roboto&display=swap" rel="stylesheet">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/video.css" />
+    <link rel="stylesheet" href="./styles/header.css" />
+    <link rel="stylesheet" href="./styles/general.css" />
+    <link rel="stylesheet" href="./styles/sidebar.css" />
+    <script
+      src="https://kit.fontawesome.com/aa15607729.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito&family=Roboto&display=swap"
+      rel="stylesheet"
+    />
     <title>MyTube</title>
-</head>
-<body>
-
+  </head>
+  <body>
     <div class="header">
-        <div class="left-section">
-            <img class="hamburger-menu" src="./icons/hamburger-menu.svg">
-            <img class="youtube-logo" src="./icons/youtube-logo.svg">
-        </div>
+      <div class="left-section">
+        <img class="hamburger-menu" src="./icons/hamburger-menu.svg" />
+        <img class="youtube-logo" src="./icons/youtube-logo.svg" />
+      </div>
 
-        <div class="middle-section">
-            <input class="search-bar" type="text" placeholder="Search">
-            <button class="search-button">
-                <img class="search-icon" src="./icons/search.svg">
-                <div class="search-info">Search</div>
-            </button>
-            <button class="voice-search-button">
-                <img class="voice-search-icon" src="./icons/voice-search-icon.svg">
-                <div class="voice-search-info">Search with voice</div>
-            </button>
-        </div>
+      <div class="middle-section">
+        <input class="search-bar" type="text" placeholder="Search" />
+        <button class="search-button">
+          <img class="search-icon" src="./icons/search.svg" />
+          <div class="search-info">Search</div>
+        </button>
+        <button class="voice-search-button">
+          <img class="voice-search-icon" src="./icons/voice-search-icon.svg" />
+          <div class="voice-search-info">Search with voice</div>
+        </button>
+      </div>
 
-        <div class="right-section">
-            <img class="upload-icon" src="./icons/upload.svg">
-            <img class="youtube-apps-icon" src="./icons/youtube-apps.svg">
-            <div class="notifications-icon-container">
-                <img class="notification-icon" src="./icons/notifications.svg">
-                <div class="notifications-count">3</div>
-            </div>
-            <img class="current-user-picture" src="../practice/twitter-text-box/imgg/cat.jpg">
+      <div class="right-section">
+        <img class="upload-icon" src="./icons/upload.svg" />
+        <img class="youtube-apps-icon" src="./icons/youtube-apps.svg" />
+        <div class="notifications-icon-container">
+          <img class="notification-icon" src="./icons/notifications.svg" />
+          <div class="notifications-count">3</div>
         </div>
+        <img
+          class="current-user-picture"
+          src="../practice/twitter-text-box/imgg/cat.jpg"
+        />
+      </div>
     </div>
     <div class="sidebar">
-        <div class="sidebar-links">
-            <img src="./sidebar-icons/home.svg">
-            <div>Home</div>
-        </div>
-        <div class="sidebar-links">
-            <img src="./sidebar-icons/explore.svg">
-            <div>Explore</div>
-        </div>
-        <div class="sidebar-links">
-            <img src="./sidebar-icons/subscriptions.svg">
-            <div>Subscription</div>
-        </div>
-        <div class="sidebar-links">
-            <img src="./sidebar-icons/originals.svg">
-            <div>Originals</div>
-        </div>
-        <div class="sidebar-links">
-            <img src="./sidebar-icons/youtube-music.svg">
-            <div>YouTube Music</div>
-        </div>
-        <div class="sidebar-links">
-            <img src="./sidebar-icons/library.svg">
-            <div>Library</div>
-        </div>
+      <div class="sidebar-links">
+        <img src="./sidebar-icons/home.svg" />
+        <div>Home</div>
+      </div>
+      <div class="sidebar-links">
+        <img src="./sidebar-icons/explore.svg" />
+        <div>Explore</div>
+      </div>
+      <div class="sidebar-links">
+        <img src="./sidebar-icons/subscriptions.svg" />
+        <div>Subscription</div>
+      </div>
+      <div class="sidebar-links">
+        <img src="./sidebar-icons/originals.svg" />
+        <div>Originals</div>
+      </div>
+      <div class="sidebar-links">
+        <img src="./sidebar-icons/youtube-music.svg" />
+        <div>YouTube Music</div>
+      </div>
+      <div class="sidebar-links">
+        <img src="./sidebar-icons/library.svg" />
+        <div>Libraryy</div>
+      </div>
     </div>
 
     <div class="video-grid">
-        <div class="video-preview">
-            <div class="image-row">        
-                <img class="images" src="./photos/hq720 (3).webp">
-                <div class="video-time">1:55:42</div>
-            </div>
-            <div class="video-info-grid">
-                <div class="channel-picture">
-                    <img class="profile-picture" src="./photos/unnamed.png">
-                </div>
-                <div class="video-info">
-                    <p class="video-title">Tchaikovsky Swan Lake - The Kirov Ballet
-                    </p>
-                    <p class="video-author">Warner Classics <i class="fa-solid fa-circle-check"></i>
-                    </p>
-                    <p class="video-stats">49 Mn views &#183; 10 years ago
-                    </p>
-                </div>
-            </div>
+      <div class="video-preview">
+        <div class="image-row">
+          <img class="images" src="./photos/hq720 (3).webp" />
+          <div class="video-time">1:55:42</div>
         </div>
-    
-        <div class="video-preview">
-            <div class="image-row">        
-                <img class="images" src="./photos/hqdefault (1).webp">
-                <div class="video-time">11:23</div>
-            </div>
-            <div class="video-info-grid">
-                <div class="channel-picture">
-                    <img class="profile-picture" src="./photos/unnamed (1).png">
-                </div>
-                <div class="video-info">
-                    <p class="video-title">Let’s Travel to The Most Extreme Place in The Universe
-                    </p>
-                    <p class="video-author">Kurzgesagt <i class="fa-solid fa-circle-check"></i>
-                    </p>
-                    <p class="video-stats">7,1 Mn views
-                     &#183; 1 month ago
-                    </p>
-                </div>
-            </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="./photos/unnamed.png" />
+          </div>
+          <div class="video-info">
+            <p class="video-title">Tchaikovsky Swan Lake - The Kirov Ballet</p>
+            <p class="video-author">
+              Warner Classics <i class="fa-solid fa-circle-check"></i>
+            </p>
+            <p class="video-stats">49 Mn views &#183; 10 years ago</p>
+          </div>
         </div>
+      </div>
 
-        <div class="video-preview">
-            <div class="image-row">        
-                <img class="images" src="./photos/hqdefault.webp">
-                <div class="video-time">12:24</div>
-            </div>
-            <div class="video-info-grid">
-                <div class="channel-picture">
-                    <img class="profile-picture" src="./photos/unnamed3.jpg">
-                </div>
-                <div class="video-info">
-                    <p class="video-title">100+ JavaScript Concepts you Need to Know
-                    </p>
-                    <p class="video-author">Fireship <i class="fa-solid fa-circle-check"></i>
-                    </p>
-                    <p class="video-stats">461 B views &#183; 11 days ago
-                    </p>
-                </div>
-            </div>
+      <div class="video-preview">
+        <div class="image-row">
+          <img class="images" src="./photos/hqdefault (1).webp" />
+          <div class="video-time">11:23</div>
         </div>
-    
-        <div class="video-preview">
-            <div class="image-row">        
-                <img class="images" src="./photos/ece.webp">
-                <div class="video-time">16:56</div>
-            </div>
-            <div class="video-info-grid">
-                <div class="channel-picture">
-                    <img class="profile-picture" src="./photos/eceprof.jpg">
-                </div>
-                <div class="video-info">
-                    <p class="video-title">Doğum günü vlog ❤️
-                    </p>
-                    <p class="video-author">Ece Çabukçu <i class="fa-solid fa-circle-check"></i>
-                    </p>
-                    <p class="video-stats">2,4 B views
-                     &#183; 5 month ago
-                    </p>
-                </div>
-            </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="./photos/unnamed (1).png" />
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              Let’s Travel to The Most Extreme Place in The Universe
+            </p>
+            <p class="video-author">
+              Kurzgesagt <i class="fa-solid fa-circle-check"></i>
+            </p>
+            <p class="video-stats">7,1 Mn views &#183; 1 month ago</p>
+          </div>
         </div>
+      </div>
 
-        <div class="video-preview">
-            <div class="image-row">        
-                <img class="images" src="./photos/hackerrank.webp">
-                <div class="video-time">7:43</div>
-            </div>
-            <div class="video-info-grid">
-                <div class="channel-picture">
-                    <img class="profile-picture" src="./photos/hackkerrankprofile.jpg">
-                </div>
-                <div class="video-info">
-                    <p class="video-title">Data Structures: Linked Lists
-                    </p>
-                    <p class="video-author">HackerRank <i class="fa-solid fa-circle-check"></i>
-                    </p>
-                    <p class="video-stats">941 B views &#183; 6 years ago
-                    </p>
-                </div>
-            </div>
+      <div class="video-preview">
+        <div class="image-row">
+          <img class="images" src="./photos/hqdefault.webp" />
+          <div class="video-time">12:24</div>
         </div>
-    
-        <div class="video-preview">
-            <div class="image-row">        
-                <img class="images" src="./photos/hugip.webp">
-                <div class="video-time">11:31</div>
-            </div>
-            <div class="video-info-grid">
-                <div class="channel-picture">
-                    <img class="profile-picture" src="./photos/hugipprof.jpg">
-                </div>
-                <div class="video-info">
-                    <p class="video-title">Gel Tanışalım vlog | oyun, eğlence, hediyeler ve pizza #hugip 🍕🎉
-                    </p>
-                    <p class="video-author">HUGIP <i class="fa-solid fa-circle-check"></i>
-                    </p>
-                    <p class="video-stats">366 views
-                     &#183; 4 days ago
-                    </p>
-                </div>
-            </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="./photos/unnamed3.jpg" />
+          </div>
+          <div class="video-info">
+            <p class="video-title">100+ JavaScript Concepts you Need to Know</p>
+            <p class="video-author">
+              Fireship <i class="fa-solid fa-circle-check"></i>
+            </p>
+            <p class="video-stats">461 B views &#183; 11 days ago</p>
+          </div>
         </div>
-        
+      </div>
+
+      <div class="video-preview">
+        <div class="image-row">
+          <img class="images" src="./photos/ece.webp" />
+          <div class="video-time">16:56</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="./photos/eceprof.jpg" />
+          </div>
+          <div class="video-info">
+            <p class="video-title">Doğum günü vlog ❤️</p>
+            <p class="video-author">
+              Ece Çabukçu <i class="fa-solid fa-circle-check"></i>
+            </p>
+            <p class="video-stats">2,4 B views &#183; 5 month ago</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="image-row">
+          <img class="images" src="./photos/hackerrank.webp" />
+          <div class="video-time">7:43</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img
+              class="profile-picture"
+              src="./photos/hackkerrankprofile.jpg"
+            />
+          </div>
+          <div class="video-info">
+            <p class="video-title">Data Structures: Linked Lists</p>
+            <p class="video-author">
+              HackerRank <i class="fa-solid fa-circle-check"></i>
+            </p>
+            <p class="video-stats">941 B views &#183; 6 years ago</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="image-row">
+          <img class="images" src="./photos/hugip.webp" />
+          <div class="video-time">11:31</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="./photos/hugipprof.jpg" />
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              Gel Tanışalım vlog | oyun, eğlence, hediyeler ve pizza #hugip 🍕🎉
+            </p>
+            <p class="video-author">
+              HUGIP <i class="fa-solid fa-circle-check"></i>
+            </p>
+            <p class="video-stats">366 views &#183; 4 days ago</p>
+          </div>
+        </div>
+      </div>
     </div>
-
-    
-    
-</body>
+  </body>
 </html>
 
 <!-- 4.44 videodxa kaldığım saat -->
